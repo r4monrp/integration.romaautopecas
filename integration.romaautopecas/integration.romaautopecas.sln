@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{15EA95D5-E19A-4A4B-8622-DEACF3F20C7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{CE029F2B-C0C9-41C1-9D07-E9B9791FDC72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "provider", "provider", "{62302201-BF7D-4087-AEFF-F176CF037370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "integration.romaautopecas.aicbrasilapis", "integration.romaautopecas.aicbrasilapis\integration.romaautopecas.aicbrasilapis.csproj", "{75F003CC-C07A-4B17-AA42-6821FFA82355}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "integration.romaautopecas.idealewareapis", "integration.romaautopecas.idealewareapis\integration.romaautopecas.idealewareapis.csproj", "{1E378145-1D71-46AD-9508-E0AE71A9499C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "integration.romaautopecas.core", "integration.romaautopecas.core\integration.romaautopecas.core.csproj", "{1A0941A7-2F72-414E-91BB-F75BDC574BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integration.romaautopecas", "integration.romaautopecas\integration.romaautopecas.csproj", "{DBE17353-2A36-4F3C-AF8F-DAF05AF2DD04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75F003CC-C07A-4B17-AA42-6821FFA82355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F003CC-C07A-4B17-AA42-6821FFA82355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F003CC-C07A-4B17-AA42-6821FFA82355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F003CC-C07A-4B17-AA42-6821FFA82355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E378145-1D71-46AD-9508-E0AE71A9499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E378145-1D71-46AD-9508-E0AE71A9499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E378145-1D71-46AD-9508-E0AE71A9499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E378145-1D71-46AD-9508-E0AE71A9499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0941A7-2F72-414E-91BB-F75BDC574BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0941A7-2F72-414E-91BB-F75BDC574BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0941A7-2F72-414E-91BB-F75BDC574BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0941A7-2F72-414E-91BB-F75BDC574BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE17353-2A36-4F3C-AF8F-DAF05AF2DD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE17353-2A36-4F3C-AF8F-DAF05AF2DD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE17353-2A36-4F3C-AF8F-DAF05AF2DD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE17353-2A36-4F3C-AF8F-DAF05AF2DD04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75F003CC-C07A-4B17-AA42-6821FFA82355} = {62302201-BF7D-4087-AEFF-F176CF037370}
+		{1E378145-1D71-46AD-9508-E0AE71A9499C} = {62302201-BF7D-4087-AEFF-F176CF037370}
+		{1A0941A7-2F72-414E-91BB-F75BDC574BAC} = {CE029F2B-C0C9-41C1-9D07-E9B9791FDC72}
+		{DBE17353-2A36-4F3C-AF8F-DAF05AF2DD04} = {15EA95D5-E19A-4A4B-8622-DEACF3F20C7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3B565D9-E5CE-48FF-B3EA-C1992CF28025}
+	EndGlobalSection
+EndGlobal
